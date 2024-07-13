@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.display {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn1 {
+    padding: 20px;
+    border: 2px solid gainsboro;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    cursor: pointer;
+    flex: 40%; /* This makes the button occupy 40% of the row */
+    box-sizing: border-box;
+}
+
+.btn2 {
+    padding: 20px;
+    border: 2px solid gainsboro;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    cursor: pointer;
+    flex: 30%; /* This makes the button occupy 30% of the row */
+    box-sizing: border-box;
+}
+
+.btn3 {
+    padding: 20px;
+    border: 2px solid gainsboro;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    cursor: pointer;
+    flex: 23%; /* This makes the button occupy 23% of the row */
+    box-sizing: border-box;
+}
+
+.btn16 {
+    padding: 20px;
+    border: 2px solid gainsboro;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    cursor: pointer;
+    flex: 23%; /* This makes the button occupy 23% of the row */
+    box-sizing: border-box;
+}
+
+.btn1:hover {
+    background-color: gray;
+}
+
+.btn2:hover {
+    background-color: lightgrey;
+}
+
+.btn3:hover {
+    background-color: lightgrey;
+}
+
+.equals {
+    border: 1px solid gray;
+    background-color: lightblue;
+    color: white;
+    flex: 67%; /* This makes the equals button span the entire row */
+}
+
+.equals:hover {
+    background-color: black;
+}
