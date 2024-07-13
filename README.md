@@ -17,10 +17,3 @@ A simple and visually appealing ToDo list application that allows users to add, 
 - **CSS**: For styling the application.
 - **JavaScript**: For the functionality and local storage.
 
-## Installation
-
-To run this application locally, follow these steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/todo-list.git
